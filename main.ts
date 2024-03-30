@@ -26,4 +26,4 @@ console.log(answer.firstNumber - answer.secondNumber);
   console.log("please select valid operator")
 }
 
-console.log("THE END");
+console.log("The End");
