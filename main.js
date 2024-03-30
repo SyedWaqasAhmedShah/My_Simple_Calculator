@@ -2,8 +2,8 @@
 // SHABANG
 import inquirer from "inquirer";
 const answer = await inquirer.prompt([
-    { message: "Enter first number", type: "number", name: "firstNumber" },
-    { message: "Enter second number", type: "number", name: "secondNumber" },
+    { message: "Enter your first number", type: "number", name: "firstNumber" },
+    { message: "Enter your second number", type: "number", name: "secondNumber" },
     {
         message: "Select one of the operators to perform operation",
         type: "list",
@@ -26,3 +26,4 @@ else if (answer.operator === "Division") {
 else {
     console.log("please select valid operator");
 }
+console.log("THE END");
